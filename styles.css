@@ -15,7 +15,7 @@ body {
 	text-align:center;
 }
 
-.category {
+.blog-column {
     background-color: #fff;
     padding: 20px;
     border: 1px solid #ccc;
@@ -23,24 +23,24 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.category h2 {
+.blog-column h2 {
     font-size: 1.2rem;
     margin-top: 0;
 }
 
-.category ul {
+.blog-columnul {
     list-style-type: none;
     padding: 0;
 }
 
-.category ul li {
+.blog-column ul li {
     margin: 8px 0;
 }
 
 
 /* Responsive adjustments (optional) */
 @media screen and (max-width: 768px) {
-    .blog-container {
+   .blog-column{
         display:flex:
 		flex-wrap:wrap;
 		flex-direction:center;
